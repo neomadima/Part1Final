@@ -16,9 +16,9 @@ jobs:
 
     env:
       Solution_Name:  CyberSecurityAssistant.sln
-      Test_Project_Path: CyberSecurityAssistant.Tests\CyberSecurity_Awareness_Bot.Tests.csproj
+      Test_Project_Path: CyberSecurityAssistant.Tests\ CyberSecurityAssistant.Tests.csproj
       Wap_Project_Directory:  CyberSecurityAssistant.Package
-      Wap_Project_Path:  CyberSecurityAssistant.Package\CyberSecurity_Awareness_Bot.Package.wapproj
+      Wap_Project_Path:  CyberSecurityAssistant.Package\ CyberSecurityAssistant.Package.wapproj
 
     steps:
     - name: Checkout Repository
